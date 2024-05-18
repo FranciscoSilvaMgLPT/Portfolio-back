@@ -1,4 +1,4 @@
-<h3 align="center">$${\color{lightgreen}🚧 {\space} Under {\space} Construction {\space} 🚧}$$</h3>
+<h3 align="center">🚧 Under Construction 🚧</h3>
 
 <h1 align="center">Hi, I'm Francisco Silva</h1>
 <h3 align="center">A passionate back-end developer with some knowledge of front-end from Portugal.</h3>
