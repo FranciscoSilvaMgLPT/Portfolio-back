@@ -1,0 +1,20 @@
+version: '3'
+
+volumes:
+  portfolio-volume:
+    driver: local
+
+services:
+  database:
+    image: postgres:13
+    container_name: portfolio
+    volumes:
+      - portfolio-volume:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: portfolio
+      POSTGRES_USER: portfolio
+      POSTGRES_PASSWORD: 12345
+
+
