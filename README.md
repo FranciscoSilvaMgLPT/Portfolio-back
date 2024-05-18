@@ -14,6 +14,8 @@
 
 - 🌱 I’m currently learning **JPA, JWT, SPRINGBOOT, SQL, LOMBOK, API, DOCKER, MAVEN, HTML5, JAVASCRPIT, DBEAVER**
 
+- 💫 Next step is to implement **JWT**
+
 - 👨‍💻 All of my projects are available at [https://github.com/FranciscoSilvaMgLPT](https://github.com/FranciscoSilvaMgLPT)
 
 - 📫 How to reach me **francisco_silva2k7@hotmail.com**
