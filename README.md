@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on [Portfolio](https://github.com/FranciscoSilvaMgLPT/Portfolio)
 
-- 🌱 I’m currently learning **JPA, JWT, SPRINGBOOT, SQL, LOMBOK, API, DOCKER, HTML5, JAVASCRPIT, DBEAVER**
+- 🌱 I’m currently learning **JPA, JWT, SPRINGBOOT, SQL, LOMBOK, API, DOCKER, MAVEN, HTML5, JAVASCRPIT, DBEAVER**
 
 - 👨‍💻 All of my projects are available at [https://github.com/FranciscoSilvaMgLPT](https://github.com/FranciscoSilvaMgLPT)
 
