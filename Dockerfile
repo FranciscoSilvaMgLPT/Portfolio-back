@@ -1,11 +1,11 @@
 # syntax=docker/dockerfile:1.4
 
 FROM --platform=$BUILDPLATFORM maven:3.8.5-eclipse-temurin-17 AS builder
-WORKDIR /workdir/server
+WORKDIR /Documents/Portfolio/back
 COPY pom.xml pom.xml
 RUN mvn dependency:go-offline
 
-COPY src /workdir/server/src
+COPY src /Documents/Portfolio/back/src/
 RUN mvn install -DskipTests
 
 FROM builder AS dev-envs
@@ -22,15 +22,15 @@ CMD ["mvn", "spring-boot:run"]
 
 FROM builder as prepare-production
 RUN mkdir -p target/dependency
-WORKDIR /workdir/server/target/dependency
+WORKDIR /Documents/Portfolio/back/target/dependency
 RUN jar -xf ../*.jar
 
 FROM eclipse-temurin:17-jre-focal
-
+/Users/mindera/Documents/Portfolio/back/src/main/java/com/example/db/DbApplication.java
 EXPOSE 8080
 VOLUME /tmp
-ARG DEPENDENCY=/workdir/server/target/dependency
+ARG DEPENDENCY=/Documents/Portfolio/back/target/dependency
 COPY --from=prepare-production ${DEPENDENCY}/BOOT-INF/lib /app/lib
 COPY --from=prepare-production ${DEPENDENCY}/META-INF /app/META-INF
 COPY --from=prepare-production ${DEPENDENCY}/BOOT-INF/classes /app
-ENTRYPOINT ["java","-cp","app:app/lib/*","com.company.project.Application"]
+ENTRYPOINT ["java","-cp","app:app/lib/*","com.example.db.DbApplication"]
