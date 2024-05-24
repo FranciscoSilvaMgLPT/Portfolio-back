@@ -23,3 +23,10 @@ k
 ;src/main/java/com/example/db/repository/UserRepository.java,a/7/a709248945729c32db063484cd9568581b266728
 e
 5src/main/java/com/example/db/service/UserService.java,4/3/433be921a8013a4a920d676f94d97c8d95fd66c9
+=
+.dockerignore,0/5/05a721ebe3ba0754116825ed1359ff1785f4bbac
+@
+README.Docker.md,e/4/e4a90f5264a6df273f6ee5d3db0098249720f365
+:
+
+Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
