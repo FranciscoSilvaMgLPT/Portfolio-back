@@ -6,7 +6,7 @@ COPY pom.xml /workdir/server/pom.xml
 RUN mvn dependency:go-offline
 
 COPY src /workdir/server/src
-RUN mvn install
+RUN mvn install -DskipTests
 
 FROM builder AS dev-envs
 RUN apt-get update && apt-get install -y --no-install-recommends git
@@ -24,7 +24,6 @@ FROM builder as prepare-production
 RUN mkdir -p target/dependency
 WORKDIR /workdir/server/target/dependency
 RUN jar -xf ../*.jar
-RUN mvn install -DskipTests
 
 FROM eclipse-temurin:17-jre-focal
 
