@@ -88,7 +88,7 @@
       <recent name="com.example.db" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile prepare-production">
+  <component name="RunManager" selected="Application.DbAplication">
     <configuration name="DbAplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.db.DbApplication" />
       <module name="db" />
