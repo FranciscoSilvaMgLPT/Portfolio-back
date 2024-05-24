@@ -17,5 +17,16 @@ services:
       POSTGRES_USER: portfolio
       POSTGRES_PASSWORD: 12345
 
+  app:
+    build: .
+    container_name: portfolio
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/portfolio
+      SPRING_DATASOURCE_USERNAME: portfolio
+      SPRING_DATASOURCE_PASSWORD: 12345
+    depends_on:
+      - database
 
 
