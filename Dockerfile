@@ -25,6 +25,9 @@ RUN mkdir -p target/dependency
 WORKDIR /Documents/Portfolio/back/target/dependency
 RUN jar -xf ../*.jar
 
+FROM openjdk:17-jdk-slim
+VOLUME /tmp
+
 FROM eclipse-temurin:17-jre-focal
 EXPOSE 8080
 VOLUME /tmp
@@ -32,4 +35,5 @@ ARG DEPENDENCY=/Documents/Portfolio/back/target/dependency
 COPY --from=prepare-production ${DEPENDENCY}/BOOT-INF/lib /app/lib
 COPY --from=prepare-production ${DEPENDENCY}/META-INF /app/META-INF
 COPY --from=prepare-production ${DEPENDENCY}/BOOT-INF/classes /app
-ENTRYPOINT ["java","-cp","app:app/lib/*","com.example.db.DbApplication"]
+COPY target/db-0.0.1-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java","jar","-jar","/app.jar","-cp","app:app/lib/*","com.example.db.DbApplication"]
