@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04103183-f4fd-45e4-8251-40d00d9e6d41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/PostgresHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/PostgresHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek$ShrekBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek$ShrekBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard$WizardBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard$WizardBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate$UserDtoCreateBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate$UserDtoCreateBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters$UserCharactersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters$UserCharactersBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest$WizardCreateRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest$WizardCreateRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/service/UserService.class" afterDir="false" />
-    </list>
+    <list default="true" id="04103183-f4fd-45e4-8251-40d00d9e6d41" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +88,7 @@
       <recent name="com.example.db" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml.app: Compose Deployment">
+  <component name="RunManager" selected="Docker.Dockerfile prepare-production">
     <configuration name="DbAplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.db.DbApplication" />
       <module name="db" />
@@ -114,8 +96,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile prepare-production" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="builder_prepare-production" />
+          <option name="buildCliOptions" value="--target prepare-production" />
+          <option name="buildKitEnabled" value="true" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -133,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile prepare-production" />
         <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
       </list>
     </recent_temporary>

@@ -26,7 +26,6 @@ WORKDIR /Documents/Portfolio/back/target/dependency
 RUN jar -xf ../*.jar
 
 FROM eclipse-temurin:17-jre-focal
-/Users/mindera/Documents/Portfolio/back/src/main/java/com/example/db/DbApplication.java
 EXPOSE 8080
 VOLUME /tmp
 ARG DEPENDENCY=/Documents/Portfolio/back/target/dependency
