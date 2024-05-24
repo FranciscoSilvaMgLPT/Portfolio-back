@@ -24,6 +24,7 @@ FROM builder as prepare-production
 RUN mkdir -p target/dependency
 WORKDIR /workdir/server/target/dependency
 RUN jar -xf ../*.jar
+RUN mvn install -DskipTests
 
 FROM eclipse-temurin:17-jre-focal
 
