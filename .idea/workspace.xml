@@ -6,22 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="04103183-f4fd-45e4-8251-40d00d9e6d41" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/db/PostgresHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/db/PostgresHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek$ShrekBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek$ShrekBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Shrek.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard$WizardBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard$WizardBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/character/Wizard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto$UserDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto$UserDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate$UserDtoCreateBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate$UserDtoCreateBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/dto/UserDtoCreate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/User$UserBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters$UserCharactersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters$UserCharactersBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/entity/UserCharacters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest$WizardCreateRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest$WizardCreateRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/model/WizardCreateRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/db/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/db/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
