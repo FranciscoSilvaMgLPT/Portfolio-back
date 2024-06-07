@@ -77,7 +77,7 @@ public class PostgresHandler implements DatabasePort {
     @Override
     public Wizard createWizard(String name) {
         if (name.isBlank() || name.startsWith(" ")) throw new ParameterNotFoundException("Invalid name.");
-        Optional<User> user = userRepository.findById("5a516819-9fe9-4b52-8420-defff9d6c1b5");
+        Optional<User> user = userRepository.findById("66912f1b-53cb-49a9-a585-a72c7b0d2259");
         if (user.isEmpty()) throw new NotFoundException();
 
         name = name.substring(0, 1).toUpperCase() + name.substring(1);
