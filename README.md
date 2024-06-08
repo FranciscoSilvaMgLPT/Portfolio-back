@@ -12,7 +12,7 @@
 
 - 🔭 I’m currently working on [Portfolio](https://franciscosilvamglpt.github.io/Portfolio-front/) (Back-end deployment not connected)
 
-- 🌱 I’m currently learning **JPA, JWT, SPRINGBOOT, SQL, LOMBOK, API, DOCKER, MAVEN, HTML5, JAVASCRPIT, DBEAVER**
+- 🌱 I have worked with **JPA, SPRINGBOOT, SQL, LOMBOK, API, DOCKER, MAVEN, HTML5, JAVASCRPIT, DBEAVER**
 
 - 💫 Next step is to implement **JWT**
 
